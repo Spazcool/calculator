@@ -1,0 +1,135 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #603311;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+    color: black;
+    font-size: 1.5em;
+}
+
+.header {
+    text-align: left;
+    max-height: 70%;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#home {
+    width: 100px;
+    margin: 1em;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.workspace {
+    margin-top: 3%;
+    margin-bottom: 1%;
+    padding: 1%;
+    background-color: #5c5c5c;
+    background-image: url("https://www.transparenttextures.com/patterns/light-aluminum.png");
+    border-top: 0 solid #363636;
+    border-bottom: 8px solid #363636;
+    border-left: 5px solid #363636;
+    border-right: 0 solid #363636;
+}
+
+.newTitle {
+    text-shadow: 0 0 0 #000, 0 0 0 #000, -2px 2px 0 #000, 0 0 0 #000;
+    font-family: "Bowlby One SC", "sans-serif";
+    text-align: center;
+    font-size: 170%;
+    color: #999999;
+}
+
+.screenHold {
+    width: 80%;
+    height: 5.5em;
+    margin: 15% 5% 5% 10%;
+    padding-top: 1.5em;
+    background-color: #000011;
+    border-top: 4px solid #171717;
+    border-bottom: 3px solid #171717;
+    border-left: 3px solid #171717;
+    border-right: 4px solid #171717;
+}
+
+#screen {
+    height: auto;
+    width: 100%;
+    padding-right: 3px;
+    color: red;
+    font-family: "Orbitron", "sans-serif";
+    font-size: 2em;
+    text-align: right;
+    line-height: 1em;
+    overflow-wrap: break-word;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+}
+
+
+/*BUTTONS*/
+
+.buts {
+    width: 21%;
+    margin: 0.75%;
+    padding-top: 4%;
+    background-color: #FF00AA;
+    background-image: url("https://www.transparenttextures.com/patterns/rough-cloth-light.png");
+    font-family: "Black Ops One", "sans-serif";
+    font-weight: bold;
+    border-top: 0 solid #8B2252;
+    border-bottom: 4px solid #8B2252;
+    border-left: 3px solid #8B2252;
+    border-right: 0 solid #8B2252;
+}
+
+.buts:focus {
+    outline: 0;
+}
+
+.buts:hover {
+    filter: brightness(75%);
+}
+
+.buts:active {
+    filter: brightness(150%);
+    border-top: 0 solid #8B2252;
+    border-bottom: 0 solid #8B2252;
+    border-left: 0 solid #8B2252;
+    border-right: 0 solid #8B2252;
+}
+
+.ops {
+    background-color: #099FFF;
+    border-top: 0 solid #2F4F4F;
+    border-bottom: 4px solid #2F4F4F;
+    border-left: 3px solid #2F4F4F;
+    border-right: 0 solid #2F4F4F;
+}
+
+.power {
+    background-color: #FF0000;
+    border-top: 0 solid #660000;
+    border-bottom: 4px solid #660000;
+    border-left: 3px solid #660000;
+    border-right: 0 solid #660000;
+}
+
+#ac, #ce {
+    width: 45%;
+}
+
+.foot {
+    padding-top: 1%;
+    font-family: "Orbitron";
+}
