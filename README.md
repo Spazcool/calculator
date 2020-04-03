@@ -4,7 +4,7 @@ This is the third version I've made of a simple calculator in JavaScript/jQuery,
 
 ## Getting Started
 
-Host locally after download or check out the one hosted on my site [Calculator](http://www.spazcool.com/calc/)
+Host locally after download or check out the one hosted on my site [Calculator](http://www.spazcool.com/calculator/index.html)
 
 ### Prerequisites
 
