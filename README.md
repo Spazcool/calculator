@@ -1,10 +1,15 @@
-# freeCodeCamp JS Calculator (ver. 3)
+# jQuery Calculator
 
 This is the third version I've made of a simple calculator in JavaScript/jQuery, CSS & HTML as one of the final projects to freeCodeCamp's frontend development program. It has been a pain in the butt however, with each rebuild it has gotten better and I've learned more from this project than many of the others.
 
+<p align="center">
+   <img width="70%" height="300vh" src="./images/desktop.gif">
+   <img width="20%" height="300vh" src="./images/mobile.gif">
+</p>
+
 ## Getting Started
 
-Host locally after download or check out the one hosted on my site [Calculator](http://www.spazcool.com/calculator/index.html)
+Host locally after download or check out the one hosted on my site [Calculator](http://www.spazcool.com/calculator/)
 
 ### Prerequisites
 
@@ -16,9 +21,9 @@ No installation required.
 
 ## Built With
 
-* jQuery
+* JS & jQuery
 * HTML
-* CSS
+* CSS & Bootstrap
 
 ## Authors
 
