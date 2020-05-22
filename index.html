@@ -3,83 +3,90 @@
 
 <head>
 	<title>Mathmaster</title>
+	<link rel="icon" type="image/png" href="./images/favicon.ico" />
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
 	<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Black+Ops+One|Orbitron|Bowlby+One+SC" />
-	<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" />
-	<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
 	<link type="text/css" rel="stylesheet" href="calc-style.css" />
 </head>
 
 <body>
-	<div class="header col-xs-12 col-sm-12 col-md-12 col-lg-12">
-		<a href="https://www.spazcool.com/">
-			<div class="well" type="button" id="home">home</div>
-		</a>
-	</div>
-	<div class="row justify-content-md-center">
-	<div class="workspace well col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-3 col-md-6 col-md-offset-4 col-lg-4 col-lg-offset-4">
-		<div class="newTitle col-xs-12 col-sm-12 col-md-12 col-lg-12">
-			<a href="https://www.freecodecamp.com/challenges/build-a-javascript-calculator" target="blank">MATHMASTER</a>
+	<nav class="row">
+		<div class="header col-xs-12" style=>
+			<a href="https://www.spazcool.com/" id="home-button">
+				<div class="" type="button" id="home">home</div>
+			</a>
 		</div>
-		<!--SCREEN-->
-		<div class="screenHold">
-			<div class="" id="screen">
+	</nav>
+
+    <main class="container-fluid">
+		<div class="row justify-content-md-center"">
+			<div class="workspace">
+				<div class="row justify-content-md-center">
+					<div class="title col-xs-12">MATHMASTER</div>
+				</div>
+				<!--SCREEN-->
+				<div class="screenHold">
+					<div class="col-xs-12" id="screen">
+					</div>
+				</div>
+				<!--BUTTONS-->
+				<div class="calculator col-xs-12">
+					<div class="col-lg-12">
+						<div class="acce">
+							<center>
+								<button class="power well buts" id="ac">AC</button>
+								<button class="power well buts" id="ce">CE</button>
+							</center>
+						</div>
+						<div class="sevenEightNineTimes">
+							<center>
+								<button class="buts" id="7">7</button>
+								<button class="buts" id="8">8</button>
+								<button class="buts" id="9">9</button>
+								<button class="ops buts" id="*">x</button>
+							</center>
+						</div>
+						<div class="fourFiveSixDivide">
+							<center>
+								<button class="buts" id="4">4</button>
+								<button class="buts" id="5">5</button>
+								<button class="buts" id="6">6</button>
+								<button class="ops buts" id="/">&divide;</button>
+							</center>
+						</div>
+						<div class="oneTwoThreePlus">
+							<center>
+								<button class="buts" id="1">1</button>
+								<button class="buts" id="2">2</button>
+								<button class="buts" id="3">3</button>
+								<button class="ops buts" id="+">+</button>
+							</center>
+						</div>
+						<div class="dotZeroEqualMinus">
+							<center>
+								<button class="buts" id=".">.</button>
+								<button class="buts" id="0">0</button>
+								<button class="power buts" id="equal">=</button>
+								<button class="ops buts" id="-">-</button>
+							</center>
+						</div>
+					</div>
+					<!--END OF BUTTONS-->
+				</div>
+				<!--END OF CALCULATOR-->
+				<div class="foot col-xs-10">
+					<center>
+						Created by me, <a href="https://github.com/Spazcool/" target="blank">Doug</a>.
+					</center>
+				</div>
 			</div>
 		</div>
-		<!--BUTTONS-->
-		<div class="calculator col-xs-12 col-sm-12 col-md-12 col-lg-12">
-			<div class="col-lg-12">
-				<div class="acce">
-					<center>
-						<button class="power well buts" id="ac">AC</button>
-						<button class="power well buts" id="ce">CE</button>
-					</center>
-				</div>
-				<div class="sevenEightNineTimes">
-					<center>
-						<button class="well buts" id="7">7</button>
-						<button class="well buts" id="8">8</button>
-						<button class="well buts" id="9">9</button>
-						<button class="ops well buts" id="*">x</button>
-					</center>
-				</div>
-				<div class="fourFiveSixDivide">
-					<center>
-						<button class="well buts" id="4">4</button>
-						<button class="well buts" id="5">5</button>
-						<button class="well buts" id="6">6</button>
-						<button class="ops well buts" id="/">&divide;</button>
-					</center>
-				</div>
-				<div class="oneTwoThreePlus">
-					<center>
-						<button class="well buts" id="1">1</button>
-						<button class="well buts" id="2">2</button>
-						<button class="well buts" id="3">3</button>
-						<button class="ops well buts" id="+">+</button>
-					</center>
-				</div>
-				<div class="dotZeroEqualMinus">
-					<center>
-						<button class="well buts" id=".">.</button>
-						<button class="well buts" id="0">0</button>
-						<button class="power well buts" id="equal">=</button>
-						<button class="ops well buts" id="-">-</button>
-					</center>
-				</div>
-			</div>
-			<!--END OF BUTTONS-->
-		</div>
-		<!--END OF CALCULATOR-->
-		<div class="foot col-xs-10 col-xs-offset-1">
-			<center>
-				Created by me, <a href="https://codepen.io/SpazCool/" target="blank">Doug</a>.
-			</center>
-		</div>
-	</div>
-	</div>
+	</main>
 	<!--END OF WORKSPACE-->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="simpleCalc.js"></script>
 </body>
 
