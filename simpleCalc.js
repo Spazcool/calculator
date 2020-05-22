@@ -47,7 +47,7 @@ $(document).ready(function() {
     function filter(input) {
         // STOPS 2 DOTS IN A ROW
         if (inputs[inputs.length - 1] === "." && input === ".") {
-            console.log("Too many dots.......");
+            // console.log("Too many dots.......");
             //IF EQUAL HAS BEEN HIT && INPUT IS NOT AN OPER HAVE THE ANSWER BE WIPED
             //FOR A NEW OPERATION TO TAKE PLACE
         } else if (equalled === 1 && nums.includes(Number(input))) {
@@ -61,7 +61,7 @@ $(document).ready(function() {
                     dotCount += 1;
                 }
             } else {
-                console.log("Still too many dots");
+                // console.log("Still too many dots");
             }
             //START WITH A NUMBER NOT AN OPERATOR
         } else if (inputs.length === 1 && opers.includes(input) === false) {
