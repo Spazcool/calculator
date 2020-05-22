@@ -5,10 +5,11 @@ body {
     background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
     color: black;
     font-size: 1.5em;
+    overflow: hidden;
 }
 
 .header {
-    text-align: left;
+    width: 100%;
     max-height: 70%;
 }
 
@@ -30,6 +31,7 @@ a:hover {
 }
 
 .workspace {
+    width: 30vw;
     margin-top: 3%;
     margin-bottom: 1%;
     padding: 1%;
@@ -41,12 +43,24 @@ a:hover {
     border-right: 0 solid #363636;
 }
 
-.newTitle {
+@media only screen and (max-width: 600px) {
+    .workspace {
+        width: 100vw;
+    }
+
+    #home-button {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.title {
     text-shadow: 0 0 0 #000, 0 0 0 #000, -2px 2px 0 #000, 0 0 0 #000;
     font-family: "Bowlby One SC", "sans-serif";
     text-align: center;
     font-size: 170%;
     color: #999999;
+    width: 100%;
 }
 
 .screenHold {
@@ -76,9 +90,7 @@ a:hover {
     display: inline-block;
 }
 
-
 /*BUTTONS*/
-
 .buts {
     width: 21%;
     margin: 0.75%;
